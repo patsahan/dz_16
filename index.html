@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Завдання з лічильником часу</title>
+</head>
+<body>
+<h1>Завдання з лічильником часу</h1>
+
+<form id="timeForm">
+    <label for="time">Задайте час роботи (у хвилинах):</label>
+    <input type="number" id="time" name="time" min="1" value="1">
+    <button type="submit">Почати лічильник</button>
+    <button type="button" id="stopTimer">Зупинити лічильник</button>
+</form>
+
+<div id="progressBar" style="width: 90%; background-color: #ddd;">
+    <div id="progress" style="height: 20px; width: 0%; background-color: #4CAF50;"></div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
